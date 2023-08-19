@@ -1,0 +1,29 @@
+/* TAILWIND CSS STYLING */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.chart-header {
+    position: absolute;
+    top: 0;
+    z-index: 4;
+    justify-content: space-between;
+    display: flex;
+    width: 55%;
+}
+
+.heatmap-yaxis {
+    height: 48px;
+    background: #d3d3d3;
+    position: absolute;
+    left: 0;
+    z-index: 5;
+    opacity: .4;
+    right: 0;
+    top: 8%;
+}
+
+.ant-space-item {
+    display: flex;
+    align-items: center;
+}
