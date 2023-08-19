@@ -38,8 +38,6 @@ export const TagHeatmap = ({
       plotBorderWidth: 0,
       borderWidth: 0,
       height: (9 / 16) * 100 + "%",
-      marginLeft: 380,
-
       events: {
         load: function () {
           const chart = this;
