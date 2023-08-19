@@ -45,7 +45,7 @@ export const TagHeatmap = ({
           const svgRenderer = chart.renderer;
 
           svgRenderer
-            .rect(10, xAxis.top - 46, 0, 38)
+            .rect(10, xAxis.top - 42, 0, 38)
             .attr({
               fill: "#F6F6F6",
               zIndex: 3, // Place the rectangle above the plot area
