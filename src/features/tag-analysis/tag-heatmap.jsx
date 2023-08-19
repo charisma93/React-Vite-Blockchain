@@ -62,6 +62,10 @@ export const TagHeatmap = ({
       text: "",
       style: {
         fontSize: "1em",
+        fontFamily: "TT Firs Neue Trl",
+        fontWeight: "700",
+        fontSize: "40px",
+        lineHeight: "48.74px",
       },
     },
 
@@ -69,6 +73,7 @@ export const TagHeatmap = ({
       gridLineWidth: 0,
       categories: heatmapData.xAxisLabels,
       opposite: true,
+      maxPadding: 10,
       labels: {
         style: {
           fontWeight: "700",
@@ -86,10 +91,11 @@ export const TagHeatmap = ({
       gridLineWidth: 0,
       categories: heatmapData.yAxisLabels,
       title: null,
-      reversed: true,
+      reverse: false,
       labels: {
         align: "left",
         reserveSpace: true,
+        allowOverlap: true,
         style: {
           fontFamily: "Economica",
           fontWeight: "700",
@@ -135,6 +141,7 @@ export const TagHeatmap = ({
       verticalAlign: "top",
       symbolWidth: 280,
       symbolHeight: 7,
+      itemMarginTop: 20,
     },
 
     tooltip: {
@@ -165,7 +172,7 @@ export const TagHeatmap = ({
         },
         //tshea
         style: {
-          paddingRight: "5px",
+          maxPadding: "50px",
         },
         cursor: "pointer",
         point: {

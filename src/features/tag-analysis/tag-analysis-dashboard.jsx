@@ -63,7 +63,7 @@ export const TagAnalysisDashboard = () => {
   }
 
   return (
-    <div className="relative">
+    <div className="relative" style={{ marginTop: '30px' }}>
       <div className="flex justify-between h-20 items-center chart-header">
         <TagAnalysisOptions options={options} onUpdateOptions={updateOptions} />
         <div className="font-semibold text-5xl" style={{ fontFamily: 'TT Firs Neue Trl' }}>Missing Tags</div>
